@@ -312,49 +312,49 @@ body {
 	height: 40vw;
 }
 .cards__item.card-bg--calendar {
-	background-image: url('/images/calendar-bg.jpg');
+	background-image: url('images/calendar-bg.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 .cards__item.card-bg--epam {
 	background-color: #000000;
-	background-image: url('/images/epam-bg.jpg');
+	background-image: url('images/epam-bg.jpg');
 	background-size: 180% auto;
 	background-position: center bottom;
 	background-repeat: no-repeat;
 }
 .cards__item.card-bg--workplace {
 	background-color: #FFFFFF;
-	background-image: url('/images/workplace-bg.jpg');
+	background-image: url('images/workplace-bg.jpg');
 	background-size: 140% auto;
 	background-position: center bottom;
 	background-repeat: no-repeat;
 }
 .cards__item.card-bg--leaders {
 	background-color: #FFFFFF;
-	background-image: url('/images/leaders-bg.jpg');
+	background-image: url('images/leaders-bg.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 .cards__item.card-bg--remote-work {
 	background-color: #1B8DCD;
-	background-image: url('/images/Remote-Work.png');
+	background-image: url('images/Remote-Work.png');
 	background-size: 100% auto;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 .cards__item.card-bg--results {
 	background-color: #21D8DE;
-	background-image: url('/images/Java-programmers.jpg');
+	background-image: url('images/Java-programmers.jpg');
 	background-size: 130% auto;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 .cards__item.card-bg--finish {
 	background-color: #FFF0D1;
-	background-image: url('/images/lights.jpg');
+	background-image: url('images/lights.jpg');
 	background-size: 90% auto;
 	background-position: center top;
 	background-repeat: no-repeat;
@@ -407,7 +407,7 @@ body {
 	align-self: flex-end;
 	width: 48px;
 	height: 48px;
-	background-image: url('/images/card-plus-icon.svg');
+	background-image: url('images/card-plus-icon.svg');
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -431,7 +431,7 @@ body {
 .cards-nav__prev {
 	width: 36px;
 	height: 36px;
-	background-image: url('/images/cards-arrow-left.svg');
+	background-image: url('images/cards-arrow-left.svg');
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -440,7 +440,7 @@ body {
 .cards-nav__next {
 	width: 36px;
 	height: 36px;
-	background-image: url('/images/cards-arrow-right.svg');
+	background-image: url('images/cards-arrow-right.svg');
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;	
@@ -460,7 +460,7 @@ body {
 .practice-content > *:nth-child(2) {
 	flex-shrink: 0;
 	width: 25%;
-	background-image: url('/images/large-long-arrow.svg');
+	background-image: url('images/large-long-arrow.svg');
 	background-size: 80% auto;
 	background-position: center bottom;
 	background-repeat: no-repeat;
@@ -499,7 +499,7 @@ body {
 	content: "";
 	width: 24px;
 	height: 24px;
-	background-image: url('/images/marked-icon.svg');
+	background-image: url('images/marked-icon.svg');
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;	
@@ -564,7 +564,7 @@ body {
 	content: "";
 	width: 24px;
 	height: 24px;
-	background-image: url('/images/marked-icon.svg');
+	background-image: url('images/marked-icon.svg');
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;	
@@ -655,7 +655,7 @@ body {
 	content: "";
 	width: 24px;
 	height: 24px;
-	background-image: url('/images/marked-icon.svg');
+	background-image: url('images/marked-icon.svg');
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -713,10 +713,10 @@ body {
 	background-repeat: no-repeat;
 }
 .requirements__prohibited-item--stop::before {
-	background-image: url('/images/stop-icon.svg');
+	background-image: url('images/stop-icon.svg');
 }
 .requirements__prohibited-item--warning::before {
-	background-image: url('/images/warning-icon.svg');
+	background-image: url('images/warning-icon.svg');
 }
 .requirements__prohibited-item p {
 	font-size: 16px;
@@ -742,7 +742,7 @@ body {
 	content: "";
 	width: 24px;
 	height: 24px;
-	background-image: url('/images/read-more-icon.svg');
+	background-image: url('images/read-more-icon.svg');
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1056,7 +1056,7 @@ body {
 	flex-shrink: 0;
 	width: 48px;
 	height: 48px;
-	background-image: url('/images/close-icon.svg');
+	background-image: url('images/close-icon.svg');
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1201,13 +1201,13 @@ body {
 	background-repeat: no-repeat;
 }
 .footer__link.footer__link--email::before {
-	background-image: url('/images/email-icon.svg');
+	background-image: url('images/email-icon.svg');
 }
 .footer__link.footer__link--linkedin::before {
-	background-image: url('/images/linkedin-icon.svg');
+	background-image: url('images/linkedin-icon.svg');
 }
 .footer__link.footer__link--github::before {
-	background-image: url('/images/github-icon.svg');
+	background-image: url('images/github-icon.svg');
 }
 
 @media screen and (min-width: 1920px) {
