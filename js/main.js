@@ -9,7 +9,7 @@ requirementsAllowedBtn.addEventListener('click', () => {
 const practiceCardsCount = 4;
 let practiceCardPos = 3;
 let practiceCardMin = 3;
-let practiceMargin = 24;
+let practiceMargin = 33;
 const practiceCardPrevBtn = document.querySelector('.cards-nav__prev');
 const practiceCardNextBtn = document.querySelector('.cards-nav__next');
 const practiceCards = document.querySelector('.cards');
@@ -36,6 +36,10 @@ function resize() {
 	practiceCardPrevBtn.click();
 	practiceCardPrevBtn.click();
 	practiceCardPrevBtn.click();
+
+	practiceCardPos = 3;
+	practiceCardMin = 3;
+	practiceMargin = 33;
 
 	if (browserWidth <= 1199) {
 		practiceCardPos = 3;
